@@ -1,0 +1,388 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32621 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Github/Robot-Care
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+52298
+Successfully changed project path to: C:/Github/Robot-Care
+C:/Github/Robot-Care
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17236] Host "[IP] 192.168.0.116 [Port] 0 [Flags] 2 [Guid] 2461199546 [EditorId] 2461199546 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O6CST3K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17236] Host "[IP] 192.168.0.116 [Port] 0 [Flags] 2 [Guid] 2461199546 [EditorId] 2461199546 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O6CST3K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Github/Robot-Care/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.003982 seconds.
+- Loaded All Assemblies, in  0.289 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.234 seconds
+Domain Reload Profiling: 523ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (234ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.494 seconds
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.491 seconds
+Domain Reload Profiling: 984ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (492ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.9 KB). Loaded Objects now: 3565.
+Memory consumption went from 129.9 MB to 129.9 MB.
+Total: 2.757400 ms (FindLiveObjects: 0.212700 ms CreateObjectMapping: 0.175200 ms MarkObjects: 2.294700 ms  DeleteObjects: 0.074200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85633.439051 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/PolygonScifiSpace_Material_02_A.mat
+  artifactKey: Guid(eaee0f11d6e5b7d4db338fedb688937e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/PolygonScifiSpace_Material_02_A.mat using Guid(eaee0f11d6e5b7d4db338fedb688937e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0ca2545b2866955f7654649d53d5c2') in 0.111520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/PolygonScifiSpace_Sign_01_A.mat
+  artifactKey: Guid(0420222675490954fbfab5242b2a1b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/PolygonScifiSpace_Sign_01_A.mat using Guid(0420222675490954fbfab5242b2a1b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d69ddc1c88d6cbb498193a58de3e32') in 0.011140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.983659 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonScifi_PlanteRings_02.mat
+  artifactKey: Guid(94a7529e20fb32f4f9733524b1bc5e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonScifi_PlanteRings_02.mat using Guid(94a7529e20fb32f4f9733524b1bc5e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babd8a800b79b40df12a9aba91dc5035') in 0.013827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_03_F.mat
+  artifactKey: Guid(f250cd59ae5057a459a2ee38ecf11b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_03_F.mat using Guid(f250cd59ae5057a459a2ee38ecf11b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd883e49a8c10604503387ed32ff67d') in 0.117262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_Lines_02_C.mat
+  artifactKey: Guid(cf8172e935d39294aa17e9348aa50127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_Lines_02_C.mat using Guid(cf8172e935d39294aa17e9348aa50127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3678409e8251d08a078261a55703eb38') in 0.013136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_03_D.mat
+  artifactKey: Guid(68d178ccb7d4c854ab101a41cbd5f649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_03_D.mat using Guid(68d178ccb7d4c854ab101a41cbd5f649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0db910a1753a23a2ba268814985dff0') in 0.088719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_Lines_03_A.mat
+  artifactKey: Guid(4321dd3b53da5eb41a38585710f15c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_Lines_03_A.mat using Guid(4321dd3b53da5eb41a38585710f15c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3793fdbe87a309c000348198b433c661') in 0.027894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_02_D.mat
+  artifactKey: Guid(64664aadc7672da4c804d9ae85455533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_02_D.mat using Guid(64664aadc7672da4c804d9ae85455533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4a589c603e2a83f9cb3bca9e3a3d8a') in 0.011943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_01_D.mat
+  artifactKey: Guid(104b4c7750829d3449e75bd4c9f4aa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_01_D.mat using Guid(104b4c7750829d3449e75bd4c9f4aa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368b7482001b55486944a86095f4058a') in 0.010592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_03_C.mat
+  artifactKey: Guid(73bc46724f8d8004c989cdf92f4a9902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_03_C.mat using Guid(73bc46724f8d8004c989cdf92f4a9902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64476e85ead93a3a17392c5716b1e014') in 0.019785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_Lines_03_C.mat
+  artifactKey: Guid(07dbc31265bdd59498403bb57aff3705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_Lines_03_C.mat using Guid(07dbc31265bdd59498403bb57aff3705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedd311f83def2706064e8195481b6c1') in 0.009972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_Lines_03_D.mat
+  artifactKey: Guid(c297a32c3099e07479cfabab9f30732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_Lines_03_D.mat using Guid(c297a32c3099e07479cfabab9f30732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357213064a3708b2cd4b308bc10fb28c') in 0.010500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_Lines_02_E.mat
+  artifactKey: Guid(0d5676d48fb87f14f953e5151571f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Planet_Materials/PolygonSpace_Planet_Lines_02_E.mat using Guid(0d5676d48fb87f14f953e5151571f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee9760b0832e42260da6a4dd368c2ad') in 0.010023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.414623 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_Blackhole.mat
+  artifactKey: Guid(a5515c39754fbde43b94f0f536f96d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_Blackhole.mat using Guid(a5515c39754fbde43b94f0f536f96d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8894beda64a9369bf611299f8a0bc617') in 0.010806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_Sun.mat
+  artifactKey: Guid(42f01578a2dc66f4080e7353b70cc20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_Sun.mat using Guid(42f01578a2dc66f4080e7353b70cc20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f862052fcd3b6df6c6e4e7ba00e410a9') in 0.010031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_Sphere.mat
+  artifactKey: Guid(41e9749fbfcb2214f8ce3b9b2bdca971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_Sphere.mat using Guid(41e9749fbfcb2214f8ce3b9b2bdca971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3aa5bc965bee6426802952d4ba1eeb') in 0.009172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_LightRay.mat
+  artifactKey: Guid(91f21d47c2b9b7d4e946b81b5b39f0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_LightRay.mat using Guid(91f21d47c2b9b7d4e946b81b5b39f0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229d78d307518f4ba6914b4314527366') in 0.007993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_Bullets_Laser.mat
+  artifactKey: Guid(918cab7a2574d6c4ba7ae6171240559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_Bullets_Laser.mat using Guid(918cab7a2574d6c4ba7ae6171240559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b58b73750a3a34f533b2b03320d9856') in 0.009716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_HUD_02.mat
+  artifactKey: Guid(ed479f6af7150af4785855060608e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_HUD_02.mat using Guid(ed479f6af7150af4785855060608e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f1097312238535714bff5fe3973d5e') in 0.010691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_WarpGate_Glow_01.mat
+  artifactKey: Guid(59ca0f35f048a0841acdb61a066316b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/FX_Materials/FX_WarpGate_Glow_01.mat using Guid(59ca0f35f048a0841acdb61a066316b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace669c84f762a3a0c68950f73da6d67') in 0.010857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.496068 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Alts/PolygonScifiSpace_Material_01_C.mat
+  artifactKey: Guid(ed3bd972f89e47e42843b13fe786b1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Alts/PolygonScifiSpace_Material_01_C.mat using Guid(ed3bd972f89e47e42843b13fe786b1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1bd6460b6ebc6f3f587e0e376bdb5c') in 0.015914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Alts/PolygonScifiSpace_Material_04_E.mat
+  artifactKey: Guid(471818ee249267849bd3a01cfefe564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Alts/PolygonScifiSpace_Material_04_E.mat using Guid(471818ee249267849bd3a01cfefe564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c34b87e5f832d9298861cb76fe6a03a') in 0.070915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Alts/PolygonScifiSpace_Material_Dirt_01.mat
+  artifactKey: Guid(138e0aae3526bd54687107ed3fc9877c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Alts/PolygonScifiSpace_Material_Dirt_01.mat using Guid(138e0aae3526bd54687107ed3fc9877c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b30117076cdb285bba7f553c8c2511d') in 0.027678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Alts/PolygonScifiSpace_Material_03_E.mat
+  artifactKey: Guid(b905751414f60f04491e10e1cdd4bd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Alts/PolygonScifiSpace_Material_03_E.mat using Guid(b905751414f60f04491e10e1cdd4bd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d941b10232151673c78dc6211252d7') in 0.074985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonSciFiSpace/Materials/Alts/PolygonScifiSpace_Material_02_B.mat
+  artifactKey: Guid(8a6d64850f424d3419b8d9df49078ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiSpace/Materials/Alts/PolygonScifiSpace_Material_02_B.mat using Guid(8a6d64850f424d3419b8d9df49078ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4e1d9a7f213950be1068df6ee98e36') in 0.096808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
