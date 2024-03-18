@@ -67,6 +67,12 @@
     <Compile Include="Assets\Script\ChangeColor.cs" />
     <Compile Include="Assets\Script\CameraPosition.cs" />
     <Compile Include="Assets\Script\BasicMovement.cs" />
+    <Compile Include="Assets\Script\PlantClosed.cs" />
+    <Compile Include="Assets\Script\LightsOff.cs" />
+    <Compile Include="Assets\Script\ComputerRoom.cs" />
+    <Compile Include="Assets\Script\RobotMenu.cs" />
+    <Compile Include="Assets\Script\Menu.cs" />
+    <Compile Include="Assets\Script\SleepMode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
