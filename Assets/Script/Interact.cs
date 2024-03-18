@@ -1,30 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
+interface IInteractable
+{
+    public void Interact();
+}
 
 public class Interact : MonoBehaviour
 {
-   
-    public string interactableTag = "Interactable";
+    public Transform InteractSource;
+    public float InteractRange;
 
     void Update()
     {
        
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit))
-            {
+            Ray ray = new Ray(InteractSource.position, InteractSource.forward);
             
-                if (hit.collider.CompareTag(interactableTag))
+            if(Physics.Raycast(ray, out RaycastHit hitInfo, InteractRange))
+            {
+                if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
                 {
-                    
-                    Debug.Log("Interacted with: " + hit.collider.gameObject.name);
-
-                   
-                    hit.collider.gameObject.SendMessage("Interact", SendMessageOptions.DontRequireReceiver);
+                    interactObj.Interact();
                 }
             }
         }
